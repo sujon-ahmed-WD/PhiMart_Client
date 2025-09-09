@@ -1,7 +1,9 @@
 
+import Alert from './components/Alert';
 import Button from './components/Button';
 import FirstComponents from './components/firstComponents'
 import List from './components/list';
+import Paly_with_Button from './components/Paly_with_Button';
  
 // import './firstComponents'
 
@@ -11,10 +13,10 @@ function App() {
     const handleClick=()=>console.log("this this button");
   return (
     <>
-     <FirstComponents/>
-       {/* <List items={fruits} heading="fruits"/>
-       <List items={citice} heading="Cities"/> */}
-       <Button items={handleClick} color="info">this not button</Button>
+     {/* <FirstComponents/>
+      <Alert color="info"/>
+       <Button items={handleClick} color="info">this not button</Button> */}
+       <Paly_with_Button/>
     </>
       
   );
