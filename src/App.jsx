@@ -7,6 +7,7 @@ import ApiFetch from './components/ApiFetch';
 import From from './components/From';
 import FromState from './components/FromState';
 import HookFrom from './components/HookFrom';
+import CartApp from './cart/CartApp';
 
  
 // import './firstComponents'
@@ -16,7 +17,8 @@ function App() {
   return (
     <>
       {/* <Effect /> */}
-    <HookFrom/>    
+    {/* <HookFrom/>     */}
+    <CartApp/>
     </>
       
   );
